@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+<!--<div class="tab">-->
+    <!--<button class="tablinks" onclick="openCity(event, 'Login')">Login</button>-->
+    <!--<button class="tablinks" onclick="openCity(event, 'Signup')">Signup</button>-->
+
+<!--</div>-->
+
+<!--<div id="London" class="tabcontent">-->
+    <!--<h3>London</h3>-->
+    <!--<p>London is the capital city of England.</p>-->
+<!--</div>-->
+
+<!--<div id="Paris" class="tabcontent">-->
+    <!--<h3>Paris</h3>-->
+    <!--<p>Paris is the capital of France.</p>-->
+<!--</div>-->
+
+
+
+
+<div id="login">
+    <form action="login/checkPassword" method="post">
+    <!--<label>Enter folder to list Directory structure:</label>-->
+    <input class="textbox" type="text" name = "uname" placeholder = "Username"> <br>
+    <input class="textbox" type="password" name = "pass" placeholder = "Password"><br>
+
+    <input id ='button' type="submit" value="Login">
+    <!--<button onclick = 'signup()'>Signup</button>-->
+
+</form>
+</div>
+
+<div id="signup">
+    <form action="signup/finished" method="post">
+        <!--<label>Enter folder to list Directory structure:</label>-->
+        <input class="textbox" type="text" name = "uname1" placeholder = "Username"> <br>
+        <input class="textbox" type="text" name = "email" placeholder = "Email ID"><br>
+        <input class='textbox' type='password' name="pass1" placeholder="Password"><br>
+
+        <input id ='button1' type="submit" value="Sign Up">
+        <!--<button onclick = 'signup()'>Signup</button>-->
+
+    </form>
+</div>
+</body>
+</html>

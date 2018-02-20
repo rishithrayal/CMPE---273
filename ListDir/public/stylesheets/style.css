@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#login{ border: black;
+  border-style: hidden;
+  height: 40%;
+  width: 30%;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: aliceblue;
+  margin: 0 auto;
+
+}
+
+#signup{ border: black;
+  border-style: hidden;
+  height: 40%;
+  width: 30%;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: aliceblue;
+  margin: 0 auto;
+
+}
+
+
+
+h4 {
+  background-color: chartreuse;
+  padding: 2px;
+  float: top;
+}
+#button,#button1{
+  /*color: black;*/
+  /*background-color: chartreuse;*/
+  /*border-radius: 10px;*/
+  /*float: left;*/
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+button{
+  position: relative;
+
+  bottom:0;
+
+}
+.textbox{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
